@@ -1,0 +1,105 @@
+
+@charset "UTF-8";
+
+/* Colour choice from Adobe Color, blue theme. 
+   182EB8  2C3885  2B3152  252733  000733
+*/
+
+body {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-color: #000733;
+  color: #E6E6E6;
+  padding: 0;
+  margin: 0;
+}
+
+#wrapper 
+{
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background: #000733;
+  background: linear-gradient(45deg, #000733 0%, #182EB8 100%);
+}
+
+img {
+  width: 25%;
+  height: auto;
+  display: block;
+  margin: 0 auto 15px auto;
+  border: 1px solid #2C3885;
+  border-radius: 8px;
+}
+
+header h1 {
+  color: white;
+  margin: 0;
+}
+
+header p {
+  margin: 5px 0 0;
+}
+
+nav {
+  background-color: #2C3885;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  margin: 20px;
+}
+
+main section {
+  background: #252733;
+  background: linear-gradient(to bottom, #2B3152 0%, #252733 100%);
+  border: 1px solid #2C3885;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+footer 
+{
+  background-color: #182EB8;
+  color: white;
+  padding: 15px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+footer p 
+{
+  margin: 5px 0;
+}
+
+footer a 
+{
+  color: #E6E6E6;
+}
+
