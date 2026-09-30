@@ -106,6 +106,8 @@ footer a
 
 
 
+/* CONTACT Page */
+
 
 form 
 {
@@ -145,3 +147,38 @@ input[type="submit"]:hover
   background-color: #2C3885;
 }
 
+
+/* Projects Page */
+
+main h2 {
+  
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+article 
+{
+
+  border: 1px solid #2C3885;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #252733;
+  color: #E6E6E6;
+}
+
+article h3
+ {
+  color: white;
+
+  margin-top: 0;
+}
+
+article p 
+{
+  color: #E6E6E6;
+
+  line-height: 1.5;
+  
+}
