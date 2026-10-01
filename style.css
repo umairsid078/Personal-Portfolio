@@ -1,44 +1,63 @@
 
 @charset "UTF-8";
 
-/* Colour choice from Adobe Color, blue theme. 
-   182EB8  2C3885  2B3152  252733  000733
+/* Colour choice from Adobe Color, blue theme.
+   001029  122F5C  395A8F  7492C2  C4D7F5
 */
 
 body {
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
-  background-color: #000733;
-  color: #E6E6E6;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #001029;
+  color: white;
   padding: 0;
   margin: 0;
 }
 
 #wrapper 
 {
-  width: 90%;
-  max-width: 1000px;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
 }
 
 header {
-  text-align: center;
-  padding: 20px;
-  background: #000733;
-  background: linear-gradient(45deg, #000733 0%, #182EB8 100%);
+  color: white;
+  padding: 18px 30px;
+  background: linear-gradient(90deg, #001029, #122F5C);
 }
 
-img {
-  width: 25%;
+#leftSection 
+{
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  width: 49%;
+  text-align: left;
+  vertical-align: middle;
+
+}
+
+#rightSection 
+{
+  
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+  vertical-align: middle;
+}
+
+#introRight img {
+  width: 475px;
   height: auto;
   display: block;
-  margin: 0 auto 15px auto;
-  border: 1px solid #2C3885;
-  border-radius: 8px;
+  margin: 0 auto;
+  border: 4px solid #395A8F;
+  border-radius: 50px;
 }
 
 header h1 {
   color: white;
   margin: 0;
+  font-size: 32px;
 }
 
 header p {
@@ -46,9 +65,7 @@ header p {
 }
 
 nav {
-  background-color: #2C3885;
-  padding: 10px 0;
-  text-align: center;
+  display: inline-block;
 }
 
 nav ul {
@@ -59,34 +76,63 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin: 0 15px;
+  margin-left: 25px;
 }
 
 nav a {
   color: white;
   text-decoration: none;
-  font-size: large;
+  font-size: 16px;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  color: #C4D7F5;
 }
 
 main {
-  margin: 20px;
+  margin: 40px 6%;
+  min-height: 74vh;
 }
 
 main section {
-  background: #252733;
-  background: linear-gradient(to bottom, #2B3152 0%, #252733 100%);
-  border: 1px solid #2C3885;
-  border-radius: 8px;
-  padding: 20px;
+  padding: 40px 20px;
 }
+
+
+#introLeft {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 5%;
+  width: 60%;
+}
+
+#introRight {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  width: 34%;
+
+}
+
+#introLeft h2 {
+  font-size: 38px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+#introLeft p 
+{
+  color: #C4D7F5;
+  max-width: 650px;
+  font-size: 18px;
+  line-height: 1.6;
+
+}
+
 
 footer 
 {
-  background-color: #182EB8;
+  background: linear-gradient(to bottom, #122F5C, #001029);
   color: white;
   padding: 15px;
   margin-top: 20px;
@@ -100,7 +146,7 @@ footer p
 
 footer a 
 {
-  color: #E6E6E6;
+  color: #C4D7F5;
 }
 
 
