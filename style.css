@@ -154,6 +154,17 @@ footer a
 
 /* CONTACT Page */
 
+#contactCard
+{
+  background-color: #122F5C;
+  border: 1px solid #395A8F;
+  border-radius: 8px;
+  text-align: center;
+  width: 70%;
+  margin: 40px auto;
+  padding: 40px;
+  
+}
 
 form 
 {
@@ -168,29 +179,34 @@ label
 input 
 {
   width: 90%;
-  padding: 8px;
+  padding: 10px;
   margin-top: 5px;
 }
 
 textarea
 {
   width: 90%;
-  padding: 8px;
+  padding: 10px;
   margin-top: 5px;
+}
+
+input, textarea {
+  border: 3px solid #395A8F;
+  border-radius: 4px;
 }
 
 input[type="submit"] 
 {
-  width: 100px;
-  background-color: #182EB8;
+  width: 300px;
+  background-color: #395A8F;
   color: white;
-  border: 1px solid #2C3885;
+  border: 1px solid #7492C2;
   padding: 10px;
 }
 
 input[type="submit"]:hover 
 {
-  background-color: #2C3885;
+  background-color: #7492C2;
 }
 
 
@@ -206,12 +222,12 @@ main h2 {
 article 
 {
 
-  border: 1px solid #2C3885;
-  border-radius: 8px;
+  border: 1px solid #395A8F;
+  border-radius: 15px;
   padding: 20px;
-  margin-bottom: 20px;
-  background-color: #252733;
-  color: #E6E6E6;
+  margin-bottom: 18px;
+  background-color: #122F5C;
+  color: white;
 }
 
 article h3
@@ -223,7 +239,7 @@ article h3
 
 article p 
 {
-  color: #E6E6E6;
+  color: #C4D7F5;
 
   line-height: 1.5;
   
