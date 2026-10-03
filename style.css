@@ -54,16 +54,6 @@ header {
   border-radius: 50px;
 }
 
-header h1 {
-  color: white;
-  margin: 0;
-  font-size: 32px;
-}
-
-header p {
-  margin: 5px 0 0;
-}
-
 nav {
   display: inline-block;
 }
@@ -243,4 +233,66 @@ article p
 
   line-height: 1.5;
   
+}
+
+
+
+
+
+/* About Me Page */
+
+#aboutSection
+{
+  text-align: center;
+}
+
+#aboutLeft
+ {
+  width: 35%;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+}
+
+#aboutRight
+{
+  display: inline-block;
+  text-align: left;
+  width: 58%;
+  vertical-align: middle;
+}
+
+#aboutLeft img 
+{
+  width: 300px;
+  border: 3px solid #395A8F;
+  border-radius: 20px;
+  height: auto;
+
+}
+
+#aboutRight p
+ {
+
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #C4D7F5;
+}
+
+
+#videoSection 
+{
+  text-align: center;
+  margin-top: 50px;
+}
+
+#videoSection video 
+{
+  width: 700px;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+  border: 3px solid #395A8F;
+
 }
